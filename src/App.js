@@ -20,11 +20,11 @@ function App() {
       </header> */}
       <main>
         <section id="home"><HomePage /></section>
-        <section id="livepi"><LivePiCounter /></section>
         <section id="visualization"><PiSpiralVisualization /></section>
+        <section id="livepi"><LivePiCounter /></section>
       </main>
-      <footer>
-        <p>Happy Pi Day! Celebrate the magic of numbers. &copy; {new Date().getFullYear()}</p>
+      <footer className="app-footer">
+        <p>Happy Pi Day! &copy; {new Date().getFullYear()}</p>
       </footer>
     </div>
   );

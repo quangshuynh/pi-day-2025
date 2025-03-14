@@ -10,7 +10,6 @@ footer {
   z-index: 1;
 }
 
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -44,4 +43,19 @@ footer {
   to {
     transform: rotate(360deg);
   }
+}
+
+.app-footer {
+  background: linear-gradient(135deg, #1f1f1f, #282c34);
+  padding: 20px 10px;
+  text-align: center;
+  color: #fff;
+  font-size: 1rem;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.3);
+  border-top: 2px solid rgba(255, 255, 255, 0.1);
+  font-family: 'Roboto', sans-serif;
+}
+
+.app-footer p {
+  margin: 0;
 }
