@@ -5,6 +5,10 @@
   overflow: hidden;
 }
 
+.pi-spiral-container h2 {
+  font-size: 2rem;
+}
+
 .spiral {
   position: relative;
   width: 300px;
