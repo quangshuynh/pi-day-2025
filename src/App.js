@@ -24,7 +24,7 @@ function App() {
         <section id="livepi"><LivePiCounter /></section>
       </main>
       <footer className="app-footer">
-        <p>Happy Pi Day! &copy; {new Date().getFullYear()}</p>
+        <p>Happy Pi Day! Made by Quang  &copy; {new Date().getFullYear()}</p>
       </footer>
     </div>
   );
