@@ -1,0 +1,27 @@
+.pi-spiral-container {
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .spiral {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    border: 1px dashed #ccc;
+    border-radius: 50%;
+    overflow: visible;
+  }
+  
+  .spiral-digit {
+    position: absolute;
+    font-size: 1rem;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  

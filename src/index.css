@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #121212;
+  color: #fff;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #61dafb;
+}
+
+header {
+  padding: 10px 20px;
+  background-color: #1f1f1f;
+}
+
+section {
+  padding: 40px 20px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #1f1f1f;
+}

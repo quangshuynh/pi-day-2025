@@ -1,0 +1,39 @@
+.background-digits {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(1ch, 1fr)); /* Ensures even spacing */
+  font-size: 4vw; /* Scales dynamically based on screen size */
+  font-family: "Courier New", monospace;
+  color: rgba(255, 255, 255, 0.1);
+  overflow: hidden;
+  line-height: 1;
+  z-index: -1;
+}
+
+.pi-digit {
+  text-align: center;
+  width: 100%;
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+  .background-digits {
+    font-size: 5vw;
+  }
+}
+
+@media (max-width: 768px) {
+  .background-digits {
+    font-size: 6vw;
+  }
+}
+
+@media (max-width: 480px) {
+  .background-digits {
+    font-size: 8vw;
+  }
+}
